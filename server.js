@@ -21,7 +21,7 @@ app.use('/api', (req, res) =>{
     req.pipe(request({ qs:req.query, uri: url })).pipe(res);
 })
 
-app.listen(3004, () => {
-  console.log('Proxy server is running on port 3004');
+app.listen(80, () => {
+  console.log('Proxy server is running on port 80');
 });
 
