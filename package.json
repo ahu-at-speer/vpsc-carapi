@@ -1,0 +1,51 @@
+{
+  "name": "veerpreet-quoting-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@iconify/react": "^5.0.1",
+    "@mui/icons-material": "^5.16.2",
+    "@mui/material": "^5.16.2",
+    "@nanostores/react": "github:ai/react",
+    "@popperjs/core": "^2.11.8",
+    "ai": "^3.2.27",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "formidable": "^3.5.1",
+    "framer-motion": "^11.3.4",
+    "fs": "^0.0.1-security",
+    "http-proxy-middleware": "^3.0.0",
+    "lodash": "^4.17.21",
+    "next": "^14.2.5",
+    "node-fetch": "^3.3.2",
+    "openai-edge": "^1.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "request": "^2.88.2",
+    "tailwind-merge": "^2.4.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vite": "^5.3.5"
+  }
+}
